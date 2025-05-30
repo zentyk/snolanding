@@ -8,39 +8,39 @@ function App() {
           <h1>¿Que buscas?</h1>
       </div>
       <div id="menu">
-        <button onClick={() => window.open("https://wa.me/+525538903746?trk=brandbook", "_blank")}>
+        <button onClick={() => window.open(`https://wa.me/+525538903746?text="Hola, quisiera conocer como adquirir un manual de marca."`, "_blank")}>
           <h3>Un Manual de Marca</h3>
           <p>Define la identidad visual y lineamientos de tu marca para garantizar coherencia en todos tus materiales.</p>
         </button>
-        <button onClick={() => window.open("https://wa.me/+525538903746?trk=marketing", "_blank")}>
+        <button onClick={() => window.open(`https://wa.me/+525538903746?text="Hola, quisiera conocer como adquirir un plan de mercadotecnia"`, "_blank")}>
           <h3>Un Plan de Mercadotecnia</h3>
           <p>Estrategia de tallada con tacticas, canales y calendario para alcanzar tus objetivos de ventas.</p>
         </button>
-        <button onClick={() => window.open("https://wa.me/+525538903746?trk=contentgrid", "_blank")}>
+        <button onClick={() => window.open(`https://wa.me/+525538903746?text="Hola, quisiera conocer como adquirir una parrila de contenido"`, "_blank")}>
           <h3>Una Parrilla de Contenido</h3>
           <p>Calendario organizado de publicaciones y temas para mantener tu audiencia siempre conectada.</p>
         </button>
-        <button onClick={() => window.open("https://wa.me/+525538903746?trk=website", "_blank")}>
+        <button onClick={() => window.open(`https://wa.me/+525538903746?text="Hola quisiera conocer como adquirir una web para vender mas"`, "_blank")}>
           <h3>Una web para vender</h3>
           <p>Sitio web optimizado, facil de usar y disenado para convertir visitas en clientes</p>
         </button>
-        <button onClick={() => window.open("https://wa.me/+525538903746?trk=videoedit", "_blank")}>
+        <button onClick={() => window.open(`https://wa.me/+525538903746?text="Hola, quisiera conocer como pueden editar mis videos"`, "_blank")}>
           <h3>Edicion de video</h3>
           <p>Transformamos tu material en historias impactantes con cortes, s inmersivas que superponen elementos digitalesal mundo real desde cualquier dispositivo.</p>
         </button>
-        <button onClick={() => window.open("https://wa.me/+525538903746?trk=automation", "_blank")}>
+        <button onClick={() => window.open(`https://wa.me/+525538903746?text="Hola, quisiera conocer como puedo automatizar mi negocio"`, "_blank")}>
           <h3>Automatizar mi negocio</h3>
           <p>Implementacion de flujos y herramientas que ahorran tiempo y reducen errores operativos.</p>
         </button>
-        <button onClick={() => window.open("https://wa.me/+525538903746?trk=interactiveads", "_blank")}>
+        <button onClick={() => window.open(`https://wa.me/+525538903746?text="Hola, quisiera conocer un poco mas sobre los display ads interactivos"`, "_blank")}>
           <h3>Un display ad interactivo</h3>
           <p>Banner digital con elementos clicables y animaciones para captar atencion y clicks.</p>
         </button>
-        <button onClick={() => window.open("https://wa.me/+525538903746?trk=vr", "_blank")}>
+        <button onClick={() => window.open(`https://wa.me/+525538903746?text="Hola, quisiera mas informacion para un proyecto de Realidad Virtual"`, "_blank")}>
           <h3>Realidad Virtual</h3>
           <p>Entornos 3D inmersivos que trasladan al usuario a nuevas realidades y experiencias unicas.</p>
         </button>
-        <button onClick={() => window.open("https://wa.me/+525538903746?trk=ar", "_blank")}>
+        <button onClick={() => window.open(`https://wa.me/+525538903746?text="Hola, quisiera mas informacion para un proyecto de Realidad Aumentada"`, "_blank")}>
           <h3>Realidad Aumentada</h3>
           <p>Superponemos elementos digitales al mundo real desde cualquier dispositivo.</p>
         </button>
