@@ -28,7 +28,7 @@ export default function ContactForm() {
     }*/
 
     return (
-        <div id="popup">
+        
             <form name='contact' className="contact-form" method="POST">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="form-group">
@@ -57,6 +57,6 @@ export default function ContactForm() {
                 <div data-netlify-recaptcha="true"></div>
                 <button type="submit">Solicitar Cotizacion</button>
             </form> 
-        </div> 
+        
     );
 }
