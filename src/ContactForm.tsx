@@ -29,7 +29,7 @@ export default function ContactForm() {
 
     return (
         <div id="popup">
-        <form name='contact' className="contact-form" method='POST'> 
+        <form name='contact' className="contact-form" method='POST' data-netlify='true'> 
             <input type="hidden" name="form-name" value="contact" />
             <div className="form-group">
                 <label htmlFor="name">Nombre</label>
