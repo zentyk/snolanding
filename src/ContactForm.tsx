@@ -1,6 +1,6 @@
 import './ContactForm.css';
 export default function ContactForm() { 
-    function HideForm(): React.MouseEventHandler<HTMLButtonElement> {
+    /*function HideForm(): React.MouseEventHandler<HTMLButtonElement> {
         return (e) => {
             e.preventDefault();
             const form = document.getElementById("form");
@@ -18,7 +18,7 @@ export default function ContactForm() {
                 }
             }
         };
-    }
+    }*/
 
     function OpenWp(): React.MouseEventHandler<HTMLButtonElement> {
         return (e) => {
