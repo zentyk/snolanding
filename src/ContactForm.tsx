@@ -56,9 +56,7 @@ export default function ContactForm() {
             </div>
             <div data-netlify-recaptcha="true"></div>
             <button type="submit">Solicitar Cotizacion</button>
-        </form>
-        <h2>O si lo prefiere:</h2>
-        <button className='wpbutton' onClick={OpenWp()} type='button'>Contactar via Whatsapp</button>
+        </form> 
         </div> 
     );
 }
