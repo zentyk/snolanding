@@ -1,4 +1,4 @@
-#form{
+#popup {
     position: fixed;
     top: 0;
     left: 0;
@@ -10,6 +10,11 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
+}
+
+#contact-form {
+    width: 400px;
+    height: 100%;
 }
 
 .form-group {

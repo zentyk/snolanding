@@ -5,7 +5,7 @@ function App() {
   function ShowForm(): React.MouseEventHandler<HTMLButtonElement> { 
     return (e) => {
       e.preventDefault();
-      const form = document.getElementById("form");
+      const form = document.getElementById("popup") as HTMLDivElement;
       if (form) {
         form.style.display = "flex";
         form.scrollIntoView({ behavior: 'smooth' });

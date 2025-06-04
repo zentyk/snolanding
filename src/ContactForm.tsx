@@ -28,8 +28,8 @@ export default function ContactForm() {
     }
 
     return (
-        <> 
-        <form id="form" name='contact' className="contact-form"> 
+        <div id="popup">
+        <form name='contact' className="contact-form"> 
             <input type="hidden" name="form-name" value="contact" />
             <div className="form-group">
                 <label htmlFor="name">Nombre</label>
@@ -56,11 +56,9 @@ export default function ContactForm() {
             </div>
             <div data-netlify-recaptcha="true"></div>
             <button type="submit">Solicitar Cotizacion</button>
-            
-            <br />
-            <h2>O si lo prefiere:</h2>
-            <button onClick={OpenWp()} type='button' className="hide-form-button">Contactar via Whatsapp</button>
         </form>
-        </> 
+        <h2>O si lo prefiere:</h2>
+        <button className='wpbutton' onClick={OpenWp()} type='button'>Contactar via Whatsapp</button>
+        </div> 
     );
 }
