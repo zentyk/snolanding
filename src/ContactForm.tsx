@@ -29,7 +29,7 @@ export default function ContactForm() {
 
     return (
         <> 
-        <form id="form" className="contact-form" method='POST' data-netlify="true">
+        <form id="form" name='contact' className="contact-form" method='POST' data-netlify="true">
             <h2>Solicita una Cotización</h2>
             <div className="form-group">
                 <label htmlFor="name">Nombre</label>
