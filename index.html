@@ -44,7 +44,14 @@
     <title>Orthocana | Home</title>
   </head>
   <body>
-    <form method="post" name='contact' class="contact-form" data-netlify="true" data-netlify-recaptcha="true" hidden> 
+    <div id="popup">
+      <div class="popup-content">
+        <h2>¡Hola! 👋</h2>
+        <p>¿Quieres saber más sobre nuestros servicios? ¡Contáctanos!</p>
+        <button id="close-popup">Cerrar</button>
+      </div>
+      <form method="post" name='contact' class="contact-form" data-netlify="true" data-netlify-recaptcha="true"> 
+      <input type="hidden" name="form-name" value="contact" />
       <div class="form-group">
         <label for="name">Nombre</label>
           <input type="text" id="name" name="name" required />
@@ -71,6 +78,7 @@
       <div data-netlify-recaptcha="true"></div> 
       <button type="submit">Solicitar Cotizacion</button>
     </form>
+    </div> 
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

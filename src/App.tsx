@@ -1,5 +1,4 @@
 import './App.css'
-import ContactForm from './ContactForm'
 
 function App() { 
   function ShowForm(): React.MouseEventHandler<HTMLButtonElement> { 
@@ -57,10 +56,6 @@ function App() {
           <p>Superponemos elementos digitales al mundo real desde cualquier dispositivo.</p>
         </button>
       </div>
-      <br/>
-      <br/>
-      <ContactForm></ContactForm> 
-      <br/>
       <footer>
         Orthocana &copy; 2025
       </footer>
