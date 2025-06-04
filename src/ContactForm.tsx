@@ -28,8 +28,8 @@ export default function ContactForm() {
     }*/
 
     return (
-        
-            <form name='contact' className="contact-form" method="POST">
+        <>
+        <form name='contact' className="contact-form" method="POST">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="form-group">
                     <label htmlFor="name">Nombre</label>
@@ -56,7 +56,7 @@ export default function ContactForm() {
                 </div>
                 <div data-netlify-recaptcha="true"></div>
                 <button type="submit">Solicitar Cotizacion</button>
-            </form> 
-        
+            </form>
+        </>
     );
 }
