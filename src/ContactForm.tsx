@@ -29,7 +29,8 @@ export default function ContactForm() {
 
     return (
         <> 
-        <form id="form" name='contact' className="contact-form" method='POST' data-netlify="true" data-netlify-recaptcha="true" hidden> 
+        <form id="form" name='contact' className="contact-form"> 
+            <input type="hidden" name="form-name" value="contact" />
             <div className="form-group">
                 <label htmlFor="name">Nombre</label>
                 <input type="text" id="name" name="name" required />
