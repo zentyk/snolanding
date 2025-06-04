@@ -40,10 +40,11 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./SNOWeb.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./form.css">
     <title>Orthocana | Home</title>
   </head>
   <body>
-<form id="form" name='contact' className="contact-form" method='POST' data-netlify="true" data-netlify-recaptcha="true" hidden> 
+    <form id="form" name='contact' className="contact-form" method='POST' data-netlify="true" data-netlify-recaptcha="true" hidden> 
             <div className="form-group">
                 <label htmlFor="name">Nombre</label>
                 <input type="text" id="name" name="name" required />
@@ -73,7 +74,7 @@
             <br />
             <h2>O si lo prefiere:</h2>
             <button onClick={OpenWp()} type='button' className="hide-form-button">Contactar via Whatsapp</button>
-        </form>
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
