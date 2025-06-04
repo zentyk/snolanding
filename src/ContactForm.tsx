@@ -53,7 +53,8 @@ export default function ContactForm() {
                         <option value="virtual-reality">Realidad Virtual</option>
                         <option value="augmented-reality">Realidad Aumentada</option>
                     </select> 
-                </div> 
+                </div>
+                <div data-netlify-recaptcha="true"></div>
                 <button type="submit">Solicitar Cotizacion</button>
             </form> 
         </div> 
