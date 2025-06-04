@@ -57,7 +57,7 @@ export default function ContactForm() {
             <button type="submit">Solicitar Cotizacion</button>
             <br />
             <h2>O si lo prefiere:</h2>
-            <button onClick={OpenWp() type="button"} className="hide-form-button">Contactar via Whatsapp</button>
+            <button onClick={OpenWp()} type='button' className="hide-form-button">Contactar via Whatsapp</button>
         </form>
         </> 
     );
