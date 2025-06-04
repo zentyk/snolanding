@@ -29,7 +29,7 @@ export default function ContactForm() {
 
     return (
         <div id="popup">
-            <form name='contact' className="contact-form" method="POST" data-netlify="true" data-netlify-recaptcha="true"> 
+            <form name='contact' className="contact-form" method="POST" > 
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="form-group">
                     <label htmlFor="name">Nombre</label>
@@ -54,7 +54,6 @@ export default function ContactForm() {
                         <option value="augmented-reality">Realidad Aumentada</option>
                     </select> 
                 </div>
- <div data-netlify-recaptcha="true"></div>
                 <button type="submit">Solicitar Cotizacion</button>
             </form> 
         </div> 
