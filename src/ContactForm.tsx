@@ -20,12 +20,12 @@ export default function ContactForm() {
         };
     }*/
 
-    function OpenWp(): React.MouseEventHandler<HTMLButtonElement> {
+    /*function OpenWp(): React.MouseEventHandler<HTMLButtonElement> {
         return (e) => {
             e.preventDefault();
             window.open("https://wa.me/+525538903746", "_blank");
         };
-    }
+    }*/
 
     return (
         <div id="popup">
